@@ -50,3 +50,10 @@ def ussd():
 
     else:
         response = "CON Sorry, Please try again. END"
+
+
+
+    return response
+
+if __name__ == "__main__":
+    app.run(debug=True)
